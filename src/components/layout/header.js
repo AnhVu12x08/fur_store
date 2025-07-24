@@ -2,6 +2,10 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './header.css';
+import LoginPage from '../../pages/auth/LoginPage';
+
+
+
 const Header = () => {
   const cartItemCount = 3; 
   const isLoggedIn = false; // Giả sử trạng thái đăng nhập, sau này lấy từ AuthContext/Redux
@@ -30,7 +34,7 @@ const Header = () => {
             {isLoggedIn ? (
               <Link to="/profile" className="user-icon">👤</Link>
             ) : (
-              <Link to="/login" className="login-link">Đăng Nhập</Link>
+              <Link to="/login" className="login-button">Đăng Nhập</Link>
             )}
           </div>
         </div>

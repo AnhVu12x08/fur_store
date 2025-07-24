@@ -33,9 +33,9 @@ const Footer = () => {
           <div className="footer-column">
             <h4>Theo Dõi Chúng Tôi</h4>
             <div className="social-icons">
-              <a href="#">FB</a>
-              <a href="#">IG</a>
-              <a href="#">TW</a>
+              <a href="https://www.facebook.com/AnhVu12x08" target='_blank' rel='noopener noreferrer'>FB</a>
+              <a href="https://www.instagram.com/AnhVu12x08" target='_blank' rel='noopener noreferrer'>IG</a>
+              <a href="https://twitter.com/AnhVu12x08" target='_blank' rel='noopener noreferrer'>TW</a>
             </div>
           </div>
         </div>
